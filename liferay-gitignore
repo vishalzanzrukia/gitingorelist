@@ -1,0 +1,39 @@
+#project settings
+.classpath
+.project
+build.gradle
+.tern-project
+.settings/**
+ivy.xml.MD5
+#---------------------------------------------------------------------------------------------------------------------------------------
+#classes
+**/classes/**
+**/test-classes/**
+#---------------------------------------------------------------------------------------------------------------------------------------
+# jars
+**/WEB-INF/lib/*.jar
+#---------------------------------------------------------------------------------------------------------------------------------------
+#default created java files by service builder
+**/persistence/*PersistenceImpl.java
+#services
+**/WEB-INF/service/**
+#auto generated sqls
+**/WEB-INF/sql/**
+#model impl
+**/WEB-INF/src/com/azilen/hrms/**/model/impl/*.java
+#service base
+**/WEB-INF/src/com/azilen/hrms/**/service/base/*.java
+#---------------------------------------------------------------------------------------------------------------------------------------
+#css cache
+**/css/.sass-cache/**
+#---------------------------------------------------------------------------------------------------------------------------------------
+#META-INF
+**/META-INF/**
+#---------------------------------------------------------------------------------------------------------------------------------------
+#service.properties
+**/WEB-INF/src/service.properties
+service.properties
+#---------------------------------------------------------------------------------------------------------------------------------------
+#Language properties
+**/WEB-INF/src/content/Language_*.properties
+!**/WEB-INF/src/content/Language_en.properties
